@@ -1,5 +1,5 @@
 {% set name = "dageo" %}
-{% set version = "1.1.1" %}
+{% set version = "1.1.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dageo-{{ version }}.tar.gz
-  sha256: da998627247d38c960ce32af8cd2c055c55ed35afc0db0e19abb425b52371ab2
+  sha256: 8d05fd981d876b6aee366cb8c63a6a5b33998a5a825c5ccc5d3d319175b13b31
 
 build:
   noarch: python
